@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+sklearn = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+rope = "*"
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+start = "python non_library.py"
